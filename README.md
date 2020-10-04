@@ -5,7 +5,7 @@ This project is the POC on **flask** the project is about how we creating a Blog
 Create a POC with **Flask** and maybe later automate with Jenkins CI/CD
 
 ## Build status
-No now for the moment, but we try integrate with Jenkins CI/CD and will do **TDD**
+No now for the moment, but we will try integrate with Jenkins CI/CD and will do **TDD**
 
 ## Tech/framework used
 <b>Built with</b>
