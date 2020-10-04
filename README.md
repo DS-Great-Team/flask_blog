@@ -15,7 +15,7 @@ No now for the moment, but we will try integrate with Jenkins CI/CD and will do 
 At beginning it is a Blog that allow: create posts, edit and delete.
 
 ## Dependencies
-If you want to run into VM you must have:
+If you want to run into VM you must have installed:
 * Python
 * pip
 * flask
