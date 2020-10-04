@@ -38,14 +38,15 @@ If you want to run over other ports and host you maybe check this: https://stack
 $ git clone https://github.com/DS-Great-Team/flask_blog.git (for clone the repo)
 $ python3.8 init_db.py (to run for first time and create the database)
 $ docker build --tag flask:1.0 . (build the Dockerfile)
-$ docker run --publish 8000:5000 --detach --name flask flask:1.0 (Run the container)
+$ docker run --publish 8000:5000 --detach --name flask flask:1.0 (Run the container if you want to expose into 8000, please feel free to read the Dockerfile)
+```
+## Tests
+```
+$ curl -v http://localhost:8000
 ```
 
 ## API Reference
 Not for now, but it will be considerer, maybe when we have a login and other apps we connected API.
-
-## Tests
-No for now, working in progress
 
 ## How to use?
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
