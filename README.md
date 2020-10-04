@@ -37,9 +37,15 @@ If you want to run over other ports and host you maybe check this: https://stack
 ```
 $ git clone https://github.com/DS-Great-Team/flask_blog.git (for clone the repo)
 $ python3.8 init_db.py (to run for first time and create the database)
-$ docker build --tag flask:1.0 . (build the Dockerfile)
-$ docker run --publish 8000:5000 --detach --name flask flask:1.0 (Run the container if you want to expose into 8000, please feel free to read the Dockerfile)
+$ docker build --tag flask_blog:1.0 . (build the Dockerfile)
+$ docker run --publish 8000:5000 --detach --name flask_blog flask_blog:1.0 (Run the container if you want to expose into 8000, please feel free to read the Dockerfile)
 ```
+
+Anyway I push the images into my dockerhub, and them are public
+```
+$ docker run --publish 8000:5000 --detach --name flask_blog danielgomeza/flask_blog:1.0
+```
+
 ## Tests
 ```
 $ curl -v http://localhost:8000
