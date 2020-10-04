@@ -8,8 +8,6 @@ Create a POC with **Flask** and maybe later automate with Jenkins CI/CD
 No now for the moment, but we try integrate with Jenkins CI/CD and will do **TDD**
 
 ## Tech/framework used
-Ex. -
-
 <b>Built with</b>
 - [flask](https://palletsprojects.com/p/flask/)
 
