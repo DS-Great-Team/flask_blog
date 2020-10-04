@@ -19,6 +19,7 @@ If you want to run into VM you must have:
 * Python
 * pip
 * flask
+
 Is well great on the stable versions. I tested into python 2.7 and I get a few bugs.
 
 ## Installation
