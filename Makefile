@@ -2,7 +2,7 @@
 
 help:
 	@echo 'Use make database for create init database'
-	@echo 'Use make build for build the container'
+	@echo 'Use make build for build the image'
 	@echo 'Use make run for run the container'
 	@echo 'Use make all for make 3 before steps'
 
